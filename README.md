@@ -2,7 +2,7 @@
 Can the force be with AI to destroy death star by deep learning?
 Supervised machine learning to self-pilot X-wing to travel back and forth in the battlefront.
 
-Model developed using Tensorflow, Tensorboard, CNN model of modified Alexnet.
+Model developed using Tensorflow.
 
 ### TL;DR
 The AI achieves satisfactory result in preventing plane crash accident, while lacking effeective demage to Imperial tie fighter.
