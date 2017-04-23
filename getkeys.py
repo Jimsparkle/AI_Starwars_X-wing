@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 20 00:08:59 2017
-
-@author: User
-"""
+# Citation: Box Of Hats (https://github.com/Box-Of-Hats )
 
 import win32api as wapi
 import time
