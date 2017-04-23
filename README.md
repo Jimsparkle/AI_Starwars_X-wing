@@ -31,6 +31,8 @@ Each frame is resized to 300 x 179.
 
 I only use 1 hour to play this game to record some training data therefore the training set is rather small. This partially explain why the AI is not able to deal effective demage (my bad gaming skill also counts, I guess...).
 
+![network](https://i.imgur.com/zshydnH.png)
+
 # Issue
 This game is a monster in consuming GPU and CPU power thus game and python crashed constantly. This made the data collecting process extremely hard, leading to failed initialization of cuDNN.
 
