@@ -4,6 +4,9 @@ Supervised machine learning to self-pilot X-wing to travel back and forth in the
 
 Model developed using Tensorflow, Tensorboard, CNN model of modified Alexnet.
 
+### TL;DR
+The AI achieves satisfactory result in preventing plane crash accident, while lacking effeective demage to Imperial tie fighter.
+
 
 **Entry to battle**
 
