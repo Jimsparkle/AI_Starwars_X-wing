@@ -11,9 +11,7 @@ from collections import Counter
 from random import shuffle
 import cv2
 
-#train_data = np.load('training_data14.npy')
-
-#show data
+#show data as video
 show_data = False
 '''
 if show_data:
@@ -26,13 +24,10 @@ if show_data:
             cv2.destroyAllWindows()
             break
 '''        
-#real work in balancing data
+#Bbalancing data
 '''
-We need to counter all the kye press to 
-average the key to prevent outliner
-'''
+Count all the kye press
 
-'''
 df = pd.DataFrame(train_data)
 #print(df.head())
 print(Counter(df[1].apply(str)))
