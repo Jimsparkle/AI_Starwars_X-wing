@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Apr 19 16:49:37 2017
-
-@author: User
-"""
+# Done by Sentdex
 
 import ctypes
 import time
