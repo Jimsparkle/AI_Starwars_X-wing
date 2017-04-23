@@ -3,7 +3,7 @@ Can the force be with AI to destroy death star by deep learning?
 Supervised machine learning to self-pilot X-wing to travel back and forth in the battlefront.
 
 Model developed using Tensorflow, Tensorboard, CNN model of modified Alexnet.
-I only use 1 hour to play this game to record some training data so the training set is rather small. This partially explain why the AI is not able to deal effective demage (my bad gaming skill also counts, I guess...)
+
 
 **Entry to battle**
 
@@ -21,8 +21,21 @@ I only use 1 hour to play this game to record some training data so the training
 
 https://www.youtube.com/watch?v=NMZph_X9e8o
 
+# Model and data:
+The programme record the frame and the keypress from the game (around 10fps). The dataset is then processed by convolution neural network.
+
+Each frame is resized to 300 x 179.
+
+I only use 1 hour to play this game to record some training data therefore the training set is rather small. This partially explain why the AI is not able to deal effective demage (my bad gaming skill also counts, I guess...).
+
+# Issue
+This game is a monster in consuming GPU and CPU power thus game and python crashed constantly. This made the data collecting process extremely hard, and leading to failed initialization of cuDNN.
+
+Therefore, compromise in underclocking GPU directly delayed AI/model reaction in real time.
+
+
 # Some Citation:
-#### Idea and model are largely inspired by Sentdex.(https://github.com/Sentdex/)
+#### Idea and model are inspired by and created from Sentdex.(https://github.com/Sentdex/)
 
 Screen capture code is developed by Frannecklp
 
