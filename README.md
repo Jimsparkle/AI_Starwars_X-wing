@@ -40,7 +40,7 @@ Therefore, compromise in underclocking GPU directly delayed AI/model reaction in
 
 
 # Some Citation:
-#### Idea and model are inspired by and created from Sentdex.(https://github.com/Sentdex/)
+#### Idea and model are inspired and originated by Sentdex self-driving programme.(https://github.com/sentdex/pygta5/)
 
 Screen capture code is developed by Frannecklp
 
