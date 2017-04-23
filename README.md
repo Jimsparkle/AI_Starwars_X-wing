@@ -1,11 +1,13 @@
 # Self-Pilot X Wing Programme
 Can the force be with AI to destroy death star by deep learning?
-Supervised machine learning to self-pilot X-wing to travel back and forth in the battlefront.
+Supervised machine learning to self-pilot X-wing and travel back and forth in the battlefront.
 
 Model developed using Tensorflow.
 
 ### TL;DR
-The AI achieves satisfactory result in preventing plane crash accident, while lacking effeective demage to Imperial tie fighter.
+The AI has been provided with only 1 hour of video of actual game play together with the corresponding keypress, and trains by tensorflow for 8 hours to pilot a X-Wing just by itself.
+
+The AI achieves satisfactory result in preventing plane crash accident, while lacking capacity to deal effective demage to Imperial tie fighter.
 
 
 **Entry to battle**
@@ -25,7 +27,7 @@ The AI achieves satisfactory result in preventing plane crash accident, while la
 https://www.youtube.com/watch?v=NMZph_X9e8o
 
 # Model and data:
-The programme record the frame and the keypress from the game (around 10fps). The dataset is then processed by convolution neural network.
+The programme records the frame and the keypress from the game (around 10fps). The dataset is then processed by convolution neural network (see the network structure below).
 
 Each frame is resized to 300 x 179.
 
