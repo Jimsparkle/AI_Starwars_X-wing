@@ -4,6 +4,8 @@ Supervised machine learning to self-pilot X-wing and travel back and forth in th
 
 Model developed using Tensorflow.
 
+This repo is cross-post in STEEMIT platform by author Jimsparkle
+
 ### TL;DR
 The AI has been provided with only 1 hour of video of actual game play together with the corresponding keypress, and trains by tensorflow for 8 hours to pilot a X-Wing just by itself.
 
